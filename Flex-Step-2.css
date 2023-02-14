@@ -1,0 +1,56 @@
+section {
+ margin: 10% auto;
+ width: 800px;
+ height: 800px;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+}
+
+section>div {
+ width: 100%;
+ height: 100%;
+ background-color: rgb(167, 48, 72);
+}
+
+section>div:last-of-type>div {
+ margin: 10% auto;
+ background-color: cornsilk;
+ height: 90%;
+ width: 65%;
+}
+
+section>div:first-of-type {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+
+section>div:first-of-type>div:first-of-type {
+ border-radius: 50%;
+ width: 95%;
+ height: 50%;
+ margin-top: 10%;
+ background-color: cornsilk;
+}
+
+section>div:first-of-type>div:last-of-type {
+ width: 95%;
+ height: 50%;
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+}
+
+section>div:first-of-type>div:last-of-type>div {
+ width: 30%;
+ height: 80%;
+ background-color: cornsilk;
+}
+
+/* step2, time: 1h */
